@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it with the metadata below and the article in preferred-citation."
+type: software
+title: "Analysis code for: Design-Based Explainable Machine Learning for Computer and Information Literacy across 35 Education Systems in ICILS 2023"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/oguzhankatar/icils2023-design-based-xai"
+authors:
+  - family-names: "Yıldırım"
+    given-names: "Nuray"
+    affiliation: "Vocational School of Social Sciences, Firat University, Elazig, Turkey"
+  - family-names: "Katar"
+    given-names: "Oğuzhan"
+    affiliation: "Department of Software Engineering, Firat University, Elazig, Turkey"
+    email: "okatar@firat.edu.tr"
+keywords:
+  - ICILS 2023
+  - computer and information literacy
+  - explainable machine learning
+  - SHAP
+  - XGBoost
+  - plausible values
+  - jackknife repeated replication
+  - random-effects meta-analysis
+  - large-scale assessment
+preferred-citation:
+  type: article
+  title: "Design-Based Explainable Machine Learning for Computer and Information Literacy across 35 Education Systems in ICILS 2023"
+  authors:
+    - family-names: "Yıldırım"
+      given-names: "Nuray"
+      affiliation: "Vocational School of Social Sciences, Firat University, Elazig, Turkey"
+    - family-names: "Katar"
+      given-names: "Oğuzhan"
+      affiliation: "Department of Software Engineering, Firat University, Elazig, Turkey"
+      email: "okatar@firat.edu.tr"
+  journal: "Applied Sciences"
+  publisher:
+    name: "MDPI"
+  year: 2026

@@ -1,0 +1,26 @@
+# Licensed IEA microdata and processed analysis files (never commit)
+data/
+*.sav
+*.zip
+
+# Pipeline outputs (hold student-level derivatives; rebuilt when the pipeline runs)
+results/
+*.pkl
+*.npz
+*.parquet
+*.log
+logs/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

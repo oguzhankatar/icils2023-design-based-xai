@@ -1,0 +1,42 @@
+{
+  "title": "Analysis code for: Design-Based Explainable Machine Learning for Computer and Information Literacy across 35 Education Systems in ICILS 2023",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Yıldırım, Nuray",
+      "affiliation": "Vocational School of Social Sciences, Firat University, Elazig, Turkey"
+    },
+    {
+      "name": "Katar, Oğuzhan",
+      "affiliation": "Department of Software Engineering, Firat University, Elazig, Turkey"
+    }
+  ],
+  "description": "<p>Analysis code and aggregated system-level results for the article <em>Design-Based Explainable Machine Learning for Computer and Information Literacy across 35 Education Systems in ICILS 2023</em> (Applied Sciences). The pipeline compares four model classes under nested school-grouped cross-validation in all 35 education systems of ICILS 2023, recomputes SHAP statistics of XGBoost for every plausible value and every jackknife replicate weight so that each explanation carries a design-based standard error, sets them against design-based linear benchmarks, pools them by random-effects meta-analysis, and evaluates transfer, group calibration and the variance estimators themselves. The ICILS 2023 microdata are not included; they are available from the IEA (https://doi.org/10.58150/ICILS_2023_data_2).</p>",
+  "license": "MIT",
+  "keywords": [
+    "ICILS 2023",
+    "computer and information literacy",
+    "explainable machine learning",
+    "SHAP",
+    "XGBoost",
+    "plausible values",
+    "jackknife repeated replication",
+    "random-effects meta-analysis",
+    "large-scale assessment"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/oguzhankatar/icils2023-design-based-xai",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.58150/ICILS_2023_data_2",
+      "relation": "requires",
+      "scheme": "doi"
+    }
+  ],
+  "language": "eng",
+  "access_right": "open"
+}

@@ -1,0 +1,22 @@
+file,reason
+clusterboot/,per-system cache or log directory (holds student-level rows)
+coverage_sim/,per-system cache or log directory (holds student-level rows)
+coverage_sim_README.md,"log or text file, not a result table"
+cv/,per-system cache or log directory (holds student-level rows)
+dropone/,per-system cache or log directory (holds student-level rows)
+dropout_pv/,per-system cache or log directory (holds student-level rows)
+foldseeds/,per-system cache or log directory (holds student-level rows)
+jrr_mechanism/,per-system cache or log directory (holds student-level rows)
+local_explanations.parquet,student-level rows; student/school identifier column
+local_explanations_meta.json,contains student or school identifiers
+local_explanations_oof.parquet,student-level rows; student/school identifier column
+loco_nested/,per-system cache or log directory (holds student-level rows)
+meta_SLOPE_clusterboot.csv,not written or read by any current script
+noise_floor/,per-system cache or log directory (holds student-level rows)
+oof_predictions.parquet,"student-level rows; student/school identifier column; 135615 rows > 20000; more than 5,000 rows per system"
+robust/,per-system cache or log directory (holds student-level rows)
+sanity/,per-system cache or log directory (holds student-level rows)
+shap/,per-system cache or log directory (holds student-level rows)
+shap_values_full.parquet,"student-level rows; student/school identifier column; 135615 rows > 20000; more than 5,000 rows per system"
+tuning_propagation/,per-system cache or log directory (holds student-level rows)
+"log_*.txt, logs/","run logs, not result tables (may echo identifiers)"
